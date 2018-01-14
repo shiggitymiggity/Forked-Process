@@ -46,7 +46,7 @@ int main(int argc, char **argv)
 				sign = 2;
 				sum = sum * -1;
 				write(com[1], &sign, 4);	//Sending a flag back so it can
-			}								            //be converted to negative again
+			}					//be converted to negative again
 			if(sum >= 0)
 			{
 				sign = 1;
